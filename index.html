@@ -1,50 +1,85 @@
-    <html>
-    <head>
-    <title>FAMILY BOOK</title>
-    <body>
-        <h1>FAMILY BOOK</h1>
-    <img src="Screen Shot 2021-05-07 at 8.32.26 PM" style="width: 30%;" id="family_member_image">
-    <h4 id="family_member_name"></h4>
-    <button onclick="update();">
-        <button type="button" onclick="nextslide()"></button>
-        <h1 id="names"></h1> 
-    </div>
-    </button>
-    </body>
-    </head>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <script>
-   
+<d>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src=""></script>
 
-var images =["Screen Shot 2021-05-07 at 9.09.48 PM.png","Screen Shot 2021-05-07 at 10.39.12 PM.png","Screen Shot 2021-05-07 at 11.10.12 PM.png","IMG_0755.jpg"];
+<body>
+    <h1>Welcome To The Family Book</h1>
+    <h2>
+    <h3>Family Book</h3>
+    <h4>(Scroll Down)</h4>
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="Screen Shot 2021-05-07 at 8.32.26 PM.png">
+     
+                      <div class="carousel-content">
+                            <p>Flamik Family</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="Screen Shot 2021-05-07 at 9.09.48 PM.png">
+                        <div class="carousel-content">
+                            <p>Anastasia Flamik</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="Screen Shot 2021-05-07 at 10.39.12 PM.png">
+                        <div class="carousel-content">
+                            <p>Tatiana Flamik</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="Screen Shot 2021-05-07 at 11.10.12 PM.png">
+                        <div class="carousel-content">
+                            <p>George Flamik</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="IMG_0755.jpg">
+                        <div class="carousel-content">
+                            <p>Dina Flamik</p>
+                        </div>
+                    </center>
+                </div>
+
+                        </div>
+                    </center>
+                </div>
+                <div class="carousel-inner">
 
 
 
+                    <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="right"></span>
 
-var names = ["Family Book", "Anastasia Flamik","Tatiana Flamik", "George Flamik", "Dina Flamik"];
+                        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="left"></span>
+                </div>
 
-var i=0;
-function nextslide(){
-  document.getElementById("album").src=images[i];
-  i++;
-}
+</body>
 
-
-var i = 0;
-function update()
-{
-    i++;
-    var numbers_of_family_member_in_array = 4
-    if(i > numbers_of_family_member_in_array );
-}
-i = 0;
-{
-    var updateImage = images[i];
-    var updateName = names[i];
-    document.getElementById("family_member_image").src = updateImage;
-    document.getElementById("family_member_name").innerHTML = updateName;`
-}
-
-
-</script>
+</html>
